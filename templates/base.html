@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Moja Webová Aplikácia{% endblock %}</title>
+</head>
+<body>
+    <header>
+        <h1>Moja Webová Aplikácia</h1>
+        <nav>
+            <ul>
+                <li><a href="/">O mne</a></li>
+                <li><a href="/hobbies">Moje zaluby</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+</body>
+</html>
